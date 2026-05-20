@@ -42,6 +42,7 @@ jobs:
         run: |
           terraform init
           terraform apply --auto-approve
+        # ./terraform 폴더안에서 위의 명렁어가 실행이 된다.
         working-directory: ./terraform
 
      
